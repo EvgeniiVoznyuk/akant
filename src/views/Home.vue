@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <!-- <LearningWays /> -->
+    <LearningWays />
     <HowLearn />
     <OurTeachers />
     <Comments />
