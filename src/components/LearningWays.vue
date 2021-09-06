@@ -94,8 +94,8 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  width: 400px;
-  height: 400px;
+  width: 380px;
+  height: 380px;
   border-radius: 50%;
   padding: 20px;
 
@@ -131,7 +131,7 @@ export default {
 
   &__grid {
     display: grid;
-    gap: 30px;
+    gap: 20px;
     grid-template-columns: repeat(3, 1fr);
   }
 
