@@ -58,7 +58,6 @@ export default {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    width: 65%;
     padding: 30px 40px 30px 30px;
     background-color: rgba(#000, 0.44);
 
@@ -70,6 +69,15 @@ export default {
       font-size: 72px;
       line-height: 82px;
       text-transform: uppercase;
+    }
+
+    @media screen and (max-width: 1325px) {
+      & {
+        font-size: 30px;
+      }
+      .akant {
+        font-size: 60px;
+      }
     }
   }
 }
@@ -85,6 +93,12 @@ export default {
     font-family: "Montserrat", serif;
     font-size: 20px;
     color: #fff;
+
+    @media screen and (max-width: 1200px) {
+      & {
+        gap: 30px;
+      }
+    }
   };
 
   &__item {
@@ -92,6 +106,12 @@ export default {
 
     &:hover {
       color: rgb(230, 153, 53);
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    & {
+      display: none;
     }
   }
 }

@@ -94,8 +94,8 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  width: 380px;
-  height: 380px;
+  width: 360px;
+  height: 360px;
   border-radius: 50%;
   padding: 20px;
 
@@ -104,14 +104,14 @@ export default {
   font-family: "Montserrat";
 
   &__title {
-    padding-top: 90px;
-    font-size: 22px;
+    padding-top: 60px;
+    font-size: 20px;
     color: #D04D30;
   }
 
   &__description {
     color: rgba(24, 24, 24, 0.87);
-    line-height: 22px;
+    line-height: 18px;
   }
 
   &__link {
@@ -133,6 +133,16 @@ export default {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
+
+    @media screen and (max-width: 1280px) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+    }
+
+    @media screen and (max-width: 865px) {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 40px;
+    }
   }
 
   &__container {

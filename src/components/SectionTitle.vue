@@ -22,7 +22,6 @@ export default {
 
 <style lang="scss" scoped>
 .col {
-  padding: 0 90px;
   width: 90%;
   display: flex;
   align-items: center;
@@ -32,11 +31,29 @@ export default {
     width: 130px;
     height: 1px;
     background-color: #000;
+
+     @media screen and (max-width: 1180px) {
+      & {
+        width: 70px;
+      }
+    }
   }
 
   &__title {
     font-size: 36px;
     color: #B33F25;
+
+    @media screen and (max-width: 1180px) {
+      & {
+        font-size: 26px;
+      }
+    }
   }
+
+   @media screen and (max-width: 1180px) {
+      &__img {
+        width: 70px;
+      }
+    }
 }
 </style>
