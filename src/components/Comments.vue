@@ -5,43 +5,44 @@
 
       <div class="comments__group">
         <div class="comment">
-          <img src="~@/assets/img/comment/img.png" class="comment__img" />
-          <p class="comment__name">Name Surname</p>
+          <img src="~@/assets/img/comment/img1.jpeg" class="comment__img" />
+          <p class="comment__name">Татьяна Гайдукова</p>
           <p class="comment__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            quam sequi perspiciatis quod iure nobis, accusamus porro eum itaque,
-            laudantium assumenda delectus molestiae aliquam quibusdam maxime
-            ullam nam atque accusantium.
+            Очень благодарна Виталию за качественную и интересную информацию.
+            Это тот самый случай, когда преподаватель искренне любит свою
+            профессию и это видно по тому, как он ведёт уроки. Увлечённость
+            предметом передается слушателям, благодаря чему на лекциях царит
+            творческая атмосфера. Восхищаюсь всеми талантами Виталия!
           </p>
           <div class="comment__icons">
             <img src="~@/assets/img/comment/inst.svg" class="comment__icon" />
             <img src="~@/assets/img/comment/msg.svg" class="comment__icon" />
           </div>
         </div>
-
         <div class="comment">
-          <img src="~@/assets/img/comment/img.png" class="comment__img" />
-          <p class="comment__name">Name Surname</p>
+          <img src="~@/assets/img/comment/img2.jpeg" class="comment__img" />
+          <p class="comment__name">Людмила Гайдученко</p>
           <p class="comment__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            quam sequi perspiciatis quod iure nobis, accusamus porro eum itaque,
-            laudantium assumenda delectus molestiae aliquam quibusdam maxime
-            ullam nam atque accusantium.
+            Огромная благодарность Виталию! Отличный педагог, легко и доступно
+            излагает материал, находит подход ко всем. Благодарна Виталию за то,
+            что вселил уверенность в себе. Для меня, как для человека который
+            никогда не ходил в художественную школу, а просто рисовал потому что
+            нравится, это очень важно. Даже после одного занятия хочется
+            рисовать, рисовать и ещё раз рисовать
           </p>
           <div class="comment__icons">
             <img src="~@/assets/img/comment/inst.svg" class="comment__icon" />
             <img src="~@/assets/img/comment/msg.svg" class="comment__icon" />
           </div>
         </div>
-
         <div class="comment">
           <img src="~@/assets/img/comment/img.png" class="comment__img" />
-          <p class="comment__name">Name Surname</p>
+          <p class="comment__name">Андрей Молодоженя</p>
           <p class="comment__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            quam sequi perspiciatis quod iure nobis, accusamus porro eum itaque,
-            laudantium assumenda delectus molestiae aliquam quibusdam maxime
-            ullam nam atque accusantium.
+            Очень рекомендую занятия по дизайну у Виталия! У Виталия есть все,
+            что необходимо: профессиональное образование по архитектуре, большой
+            разноплановый практический опыт по дизайну и проектированию, редкий
+            талант интересно и качественно делиться информацией с учениками.
           </p>
           <div class="comment__icons">
             <img src="~@/assets/img/comment/inst.svg" class="comment__icon" />
@@ -75,7 +76,6 @@ export default {
 <style lang="scss">
 .comment {
   width: 320px;
-  height: 300px;
   border: 1px solid #00000044;
   padding: 40px;
 
@@ -103,6 +103,12 @@ export default {
 
   &__icon {
     cursor: pointer;
+  }
+
+  &__img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
   }
 }
 .comments {

@@ -5,73 +5,36 @@
       <div class="lw__grid">
         <div class="way">
           <h1 class="way__title">Дизайн интерьера жилых помещений</h1>
-          <p class="way__description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            aliquid eligendi minima ab voluptatem? Consectetur, dicta adipisci.
-            Ullam praesentium doloribus dolorem error velit voluptatum provident
-            suscipit, maxime, perferendis distinctio cupiditate?
-          </p>
-          <p class="way__date">Начало 6 июля</p>
+
           <a class="way__link">Подробнее</a>
         </div>
 
         <div class="way">
           <h1 class="way__title">Индивидуальное занятие</h1>
-          <p class="way__description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            aliquid eligendi minima ab voluptatem? Consectetur, dicta adipisci.
-            Ullam praesentium doloribus dolorem error velit voluptatum provident
-            suscipit, maxime, perferendis distinctio cupiditate?
-          </p>
-          <p class="way__date">Начало 6 июля</p>
+
           <a class="way__link">Подробнее</a>
         </div>
 
         <div class="way">
           <h1 class="way__title">Программа ArchiCAD</h1>
-          <p class="way__description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            aliquid eligendi minima ab voluptatem? Consectetur, dicta adipisci.
-            Ullam praesentium doloribus dolorem error velit voluptatum provident
-            suscipit, maxime, perferendis distinctio cupiditate?
-          </p>
-          <p class="way__date">Начало 6 июля</p>
           <a class="way__link">Подробнее</a>
         </div>
 
          <div class="way">
           <h1 class="way__title">Скетч для ландшафтных дизайнеров</h1>
-          <p class="way__description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            aliquid eligendi minima ab voluptatem? Consectetur, dicta adipisci.
-            Ullam praesentium doloribus dolorem error velit voluptatum provident
-            suscipit, maxime, perferendis distinctio cupiditate?
-          </p>
-          <p class="way__date">Начало 6 июля</p>
+
           <a class="way__link">Подробнее</a>
         </div>
 
          <div class="way">
           <h1 class="way__title">Рисование с нуля</h1>
-          <p class="way__description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            aliquid eligendi minima ab voluptatem? Consectetur, dicta adipisci.
-            Ullam praesentium doloribus dolorem error velit voluptatum provident
-            suscipit, maxime, perferendis distinctio cupiditate?
-          </p>
-          <p class="way__date">Начало 6 июля</p>
+
           <a class="way__link">Подробнее</a>
         </div>
 
          <div class="way">
           <h1 class="way__title">Скетч в интерьере</h1>
-          <p class="way__description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            aliquid eligendi minima ab voluptatem? Consectetur, dicta adipisci.
-            Ullam praesentium doloribus dolorem error velit voluptatum provident
-            suscipit, maxime, perferendis distinctio cupiditate?
-          </p>
-          <p class="way__date">Начало 6 июля</p>
+
           <a class="way__link">Подробнее</a>
         </div>
       </div>
@@ -104,7 +67,7 @@ export default {
   font-family: "Montserrat";
 
   &__title {
-    padding-top: 60px;
+    padding-top: 150px;
     font-size: 20px;
     color: #D04D30;
   }
